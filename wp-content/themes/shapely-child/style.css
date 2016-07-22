@@ -1,0 +1,75 @@
+/*
+ Theme Name:   Shapely child
+ Author:       Tat
+ Author URI:   http://example.com
+ Template:     shapely
+*/
+.feature-1 i {
+    color: #ff0000;
+}
+input[type="submit"] {
+	background: #ff0000;
+	border-color: #dc0000;
+}
+input[type="submit"]:hover, .btn.searchsubmit:hover, .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: #9e0000;
+    color: #fff;
+}
+.page-title {
+    margin-top: 6px;
+}
+.menu > li ul{
+	width: auto;
+}
+.menu > li > ul li a:hover {
+	background-color: #9e0000;
+}
+a.woo-menu-cart {
+    display: none;
+}
+footer {
+    padding: 10px 0;
+}
+.site-info {
+    padding: 35px 10px;
+}
+.widget_text {
+    position: relative;
+}
+.yandex_block {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: rgba(14, 16, 21, 0.87);
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.yandex_block h3 {
+    margin: 0 0 10px;
+}
+.footer-widget-area .footer-widget div#contact-form-widget-text-8 {
+    display: none;
+}
+#contact-form-widget-text-8 {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    min-width: 350px;
+}
+#contact-form-widget-text-8 input, #contact-form-widget-text-8 textarea {
+    width: 100%;
+    max-width: 100%;
+}
+#contact-form-widget-text-8 .title {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 1.7em;
+}
+.footer-widget .widget {
+    margin-bottom: 0;
+}
+.col-md-3.col-sm-6.masonry-item.project.masonry-brick {
+    padding: 0;
+}
