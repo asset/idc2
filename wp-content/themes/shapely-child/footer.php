@@ -30,7 +30,7 @@
           </div><!-- .site-info -->
           <div class="col-sm-6 text-right">
             <?php //if( !get_theme_mod('footer_social') ) shapely_social_icons(); ?>
-            <p><a class="call_link call-popup" href="#">Связаться с нами</a></p>
+            <p><a class="call_link call-popup btn btn-lg btn-filled" href="#">Связаться с нами</a></p>
             <p>+7&nbsp;(777) 777 77 77</p>
             <p>+7&nbsp;(777) 777 77 77</p>
           </div>
