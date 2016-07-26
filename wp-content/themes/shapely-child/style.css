@@ -73,3 +73,82 @@ footer {
 .col-md-3.col-sm-6.masonry-item.project.masonry-brick {
     padding: 0;
 }
+.home #main > .row > .col-md-12 > .widget_text .widget-title {
+    text-align: center;
+}
+.deyatelnost {
+    min-height: 380px;
+    background: #efefef;
+}
+.col-md-4 .deyatelnost {
+    min-height: 450px;
+}
+.deyatelnost .thumb {
+    position: relative;
+    min-height: 320px;
+    color: #fff;
+}
+.col-md-4 .deyatelnost .thumb {
+    min-height: 390px;
+}
+.deyatelnost .thumb > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.deyatelnost:hover .description {
+    height: 100%;
+    position: absolute;
+    background: rgba(17, 17, 17, 0.78);
+    transition: .5s all;
+}
+.deyatelnost .description {
+    position: absolute;
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    transition: .5s all;
+}
+.deyatelnost .description .title {
+    margin-top: 0;
+}
+.deyatelnost .content .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.secondary-nav {
+    text-align: center;
+}
+.secondary-nav img {
+    max-width: 100%;
+    max-height: 100px;
+}
+.row.category:nth-child(2n+1) .cat_image {
+    float: right;
+}
+.row.category .cat_info {
+    margin-top: 80px;
+}
+.btn-group-lg>.btn, .btn-lg{
+    border-radius: 3px;
+}
+.cat_product .thumb img {
+    max-height: 165px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.cat_product .description .item {
+    border-right: 1px solid #d6d6d6;
+}
+.cat_product .description .item:last-child {
+    border-right: 0px solid #d6d6d6;
+}
+.row.cat_product {
+    margin-bottom: 50px;
+}
