@@ -146,7 +146,7 @@ get_header( 'shop' ); ?>
 				<div class="description">
 				<?php echo $cat->description; ?>
 				</div>
-				<a class="btn btn-lg btn-filled" href="/product-category/<?php echo $term->slug; ?>/<?php echo $cat->slug; ?>">Подробнее</a>
+				<a class="btn btn-lg btn-filled" href="/?product_cat=<?php echo $cat->slug; ?>">Подробнее</a>
 			</div>
 		</div>
 	<?php endforeach; ?>
