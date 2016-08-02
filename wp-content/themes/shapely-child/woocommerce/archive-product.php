@@ -123,7 +123,7 @@ get_header( 'shop' ); ?>
 					$image = wp_get_attachment_url( $thumbnail_id );
 					if (!$image) $image = '/wp-content/themes/shapely-child/images/no-image.png';
 				?>
-				<a href="/product-category/<?php echo $term->slug; ?>/<?php echo $cat->slug; ?>">
+				<a href="/idc2/?product_cat=<?php echo $cat->slug; ?>">
 					<img src="<?php echo $image; ?>">
 					<h5><?php echo $cat->name; ?></h5>
 				</a>
@@ -146,7 +146,7 @@ get_header( 'shop' ); ?>
 				<div class="description">
 				<?php echo $cat->description; ?>
 				</div>
-				<a class="btn btn-lg btn-filled" href="/?product_cat=<?php echo $cat->slug; ?>">Подробнее</a>
+				<a class="btn btn-lg btn-filled" href="/idc2/?product_cat=<?php echo $cat->slug; ?>">Подробнее</a>
 			</div>
 		</div>
 	<?php endforeach; ?>
